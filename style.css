@@ -168,3 +168,22 @@ body{
  .todos-container img{
     width: 300px;
 }
+@media  (max-width:600px){
+    .container{
+        margin: 0 20px;
+        padding: 0 10px;
+    }
+    .todo-app{
+        padding: 1.5rem;
+        gap: 20px;
+    }
+    .input-area input{
+        font-size: 1rem;
+    }
+    #task-list li{
+        font-size: 1rem;
+    }
+    .todos-container img{
+    width: 200px;
+}
+}
